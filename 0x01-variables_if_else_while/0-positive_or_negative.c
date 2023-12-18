@@ -4,7 +4,7 @@
 #include <stdio.h>
 /* betty style doc for function main goes there */
 /**
- * main -main function
+ * main - main function
  *
  * Return: always 0
  */
@@ -16,10 +16,10 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
 	if (n > 0)
-		printf("%d is postive, n");
+		printf("%d is postive\n", n);
 	if (n == 0)
-		printf("%%d is zero, n");
+		printf("%d is zero\n", n);
 	if (n < 0)
-		printf("%d is negative, n")
+		printf("%d is negative\n", n);
 	return (0);
 }
